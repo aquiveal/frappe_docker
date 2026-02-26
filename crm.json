@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://github.com/aquiveal/crm",
+    "branch": "develop"
+  },
+  {
+    "url": "https://github.com/aquiveal/frappe_crm",
+    "branch": "main"
+  },
+  {
+    "url": "https://github.com/aquiveal/frappe_chatwoot",
+    "branch": "main"
+  },
+  {
+    "url": "https://github.com/aquiveal/frappe_sequence",
+    "branch": "main"
+  }
+]
