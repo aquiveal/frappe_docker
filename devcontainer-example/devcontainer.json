@@ -10,7 +10,9 @@
         "grapecity.gc-excelviewer",
         "mtxr.sqltools",
         "mtxr.sqltools-driver-mysql",
-        "visualstudioexptteam.vscodeintellicode"
+        "vue.volar",
+        "esbenp.prettier-vscode",
+        "charliermarsh.ruff"
       ],
       "settings": {
         "terminal.integrated.profiles.linux": {
@@ -44,6 +46,7 @@
   "service": "frappe",
   "workspaceFolder": "/workspace/development",
   "shutdownAction": "stopCompose",
+  "postCreateCommand": "uv tool install pre-commit",
   "mounts": [
     "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/frappe/.ssh,type=bind,consistency=cached"
   ]
